@@ -11,8 +11,8 @@ default:
         # because your secret passphrase needs to be submitted to this node to be able to execute transactions.
         # Make sure to not put a '/' at the end of it
         # Example:
-        # Host: "https://login.lisk.io"
-        Host: "REPLACE_ME"
+        # Host: "https://wallet.shiftnrg.nl"
+        Host: "wallet.shiftnrg.nl"
         
         # Add here the address of the account from where you want to send the transactions
         # Example:
