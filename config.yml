@@ -45,6 +45,6 @@ default:
     
     Distribution_Main:
         - type: "direct_percentage"
-          value: "9959711110222257320L"
+          value: "11523444743106892567S"
           amount: "1%"
           description: "Donations - cc001"
