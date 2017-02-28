@@ -81,7 +81,7 @@ def getDistributedAmount(totalAmount):
 def getPriceUsd():
     priceUSD = 0
     #query = "https://api.coinmarketcap.com/v1/ticker/lisk/" #coinmarketcap
-    query = "https://explorer.lisk.io/api/getPriceTicker"
+    query = "https://explorer.shiftnrg.nl/api/getPriceTicker"
     answer = ""
     try:
         response = requests.get(url=query, timeout=5)
