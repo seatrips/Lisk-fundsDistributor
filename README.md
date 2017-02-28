@@ -1,4 +1,4 @@
-# Lisk-fundsDistributor
+# Shift-fundsDistributor
 Script to distribute funds to different accounts. The amounts are fully configurable and hierarchical groupable.
 Different configurations are possible and a second passphrase is supported.
 
