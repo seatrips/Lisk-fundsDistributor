@@ -15,6 +15,7 @@ You can add multiple configuration secions, to use different distributions from 
 
 ## Donations_seatrips.csv example
 amount;address;description
+
 1;15073035977129307459S;"Donation seatrips"
 1;12559640335253367172S;"Donation communitywallet2"
 1;10171121796382845819S;"Donation communitywallet3"
