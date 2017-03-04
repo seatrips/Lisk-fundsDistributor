@@ -16,7 +16,7 @@ default:
         # Add here the PublicKey of your account
         # Example:
         # PublicKey: "234234645jfweijf9384rz76gr39ehg938th283th398gh94ghb832gb9238gbwiegb83f"
-        PublicKey: "412406d5b2b4a9a0e59fdf0dc991877ac7bdaaadb37712a505e1c513aa37e2dc"
+        PublicKey: "yourpublickey"
 
         # Add here your secret passphrase of the account you want to send the transactions from
         # The passphrase is needed to be able to send transactions
