@@ -23,12 +23,6 @@ amount;address;description
 0.5;11523444743106892567S;"Donation for the maker cc001"
 
 ## Config.yml example for csv use
-# Please read README.txt for instructions how to configure your distributions.
-# This distribution is a minimum configuration that distributes all except 100 LSK,
-# and sends 1% of that amount as a donation to cc001 :)
-# If you don't want to make that donation, just remove/change it and define your own distributions
-# Please make sure that the spacing and intents are correct, they are important in .yml-files.
-
 default:
     Sender:
         # Add here a host where you want to send the api commands to. I recommend to use your own node.
