@@ -32,7 +32,7 @@ flag, which means that the question is answered automatically with 'yes'. This i
 non-interactively, for example with 'cron'.
 
 ## Information
-The default configuration sends 1% of your distributed funds to CC001 account 11523444743106892567S. :)
+The default configuration sends 0.5 shift to CC001 account 11523444743106892567S and 0.5 shift to seatrips account 15073035977129307459S :)
 If you don't want to send such a donation, of course you simpley can remove or modify it!
 
 ## Screenshot
