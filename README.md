@@ -14,14 +14,7 @@ If you are sure your configuration is correct, set the SIMULATION flag in fundsD
 You can add multiple configuration secions, to use different distributions from different accounts.
 
 ## Donations_seatrips.csv example
-amount;address;description
-
-1;15073035977129307459S;"Donation seatrips"
-1;12559640335253367172S;"Donation communitywallet2"
-1;10171121796382845819S;"Donation communitywallet3"
-1;14828780214380070211S;"Donation shift donations"
-1;6335202970982935269S;"Donation shiftcommunitywallet"
-0.5;11523444743106892567S;"Donation for the maker cc001"
+see donations_example.csv
 
 ## Config.yml example for csv use
 see config.yml.example
