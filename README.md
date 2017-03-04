@@ -23,7 +23,7 @@ amount;address;description
 0.5;11523444743106892567S;"Donation for the maker cc001"
 
 ## Config.yml example for csv use
-see config.yml example
+see config.yml.example
           
 ## example crontab for every 6 hours payment
 15     */6     *     *     * cd Shift-fundsDistributor && ./fundsDistributor.py -y
