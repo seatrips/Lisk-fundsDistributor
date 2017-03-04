@@ -46,3 +46,9 @@ default:
    Distribution_Main:
         - type: "file_fixed"
           value: "donations_seatrips.csv"
+          
+   #Distribution_Main:
+   #     - type: "direct_percentage"
+   #       value: "9959711110222257320L"
+   #      amount: "1%"
+   #      description: "Donations - cc001"
