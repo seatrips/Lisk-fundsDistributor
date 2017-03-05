@@ -16,7 +16,7 @@ default:
         
         # Add here the address of the account from where you want to send the transactions
         # Example:
-        # Address: "12312352346456L"
+        # Address: "12312352346456S"
         Address: "REPLACE_ME"
         
         # Add here the PublicKey of your account
