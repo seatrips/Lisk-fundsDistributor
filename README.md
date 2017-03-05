@@ -39,6 +39,6 @@ If you don't want to send such a donation, of course you simpley can remove or m
 ![Screenshot](screenshot.png?raw=true "Screenshot")
 
 If you have any question or suggestion, please contact cc001 on lisk.chat, forum.lisk.io or www.liskdelegate.io
-or seatrips on shiftnrg.ryver.com
+or seatrips on https://shiftnrg.ryver.com
 
 If you like this script, please vote for my delegate 'cc001' and 'seatrips' on test- and mainnet, Thanks!
