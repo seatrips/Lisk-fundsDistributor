@@ -15,9 +15,11 @@ You can add multiple configuration secions, to use different distributions from 
 
 ## Donations_seatrips.csv example
 see donations_example.csv
+change the adresses, amounts and name to your needs
 
 ## Config.yml example for csv use
 see config.yml.example
+change the "REPLACE_ME" in config.yml to your needs
           
 ## example crontab for every 6 hours payment
 15     */6     *     *     * cd Shift-fundsDistributor && ./fundsDistributor.py -y
