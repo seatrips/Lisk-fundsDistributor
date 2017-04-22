@@ -80,7 +80,7 @@ def getDistributedAmount(totalAmount):
 
 def getPriceUsd():
     priceUSD = 0
-    #query = "https://api.coinmarketcap.com/v1/ticker/lisk/" #coinmarketcap
+    #query = "https://api.coinmarketcap.com/v1/ticker/shift/" #coinmarketcap
     query = "https://explorer.shiftnrg.nl/api/getPriceTicker"
     answer = ""
     try:
@@ -92,8 +92,8 @@ def getPriceUsd():
         print "Not allowed"
         answer = []
     
-    if answer and 'success' in answer and answer['success'] and 'LSK' in answer['tickers'] and 'USD' in answer['tickers']['LSK']:
-        priceUSD = answer['tickers']['LSK']['USD']
+    if answer and 'success' in answer and answer['success'] and 'SHIFT' in answer['tickers'] and 'USD' in answer['tickers']['LSK']:
+        priceUSD = answer['tickers']['SHIFT']['USD']
         #priceUSD = answer[0]['price_usd'] # coinmarketcap
 
     return priceUSD
@@ -387,8 +387,8 @@ priceUsd = getPriceUsd()
 
 print template.format("Balance:", str(totalAmount / SATOSHIS))
 print template.format("Fee per transaction:", str(transactionFee / SATOSHIS))
-print template.format("Amount to distribute:", str(distributedAmount / SATOSHIS) + " LSK (" + str(distributedAmount / SATOSHIS * float(priceUsd)) + " USD) - (" + str(config['Distribution']['Style']) + ": " + str(config['Distribution']['Amount']) + ")")
-print template.format("LSK/USD", str(priceUsd));
+print template.format("Amount to distribute:", str(distributedAmount / SATOSHIS) + " SHIFT (" + str(distributedAmount / SATOSHIS * float(priceUsd)) + " USD) - (" + str(config['Distribution']['Style']) + ": " + str(config['Distribution']['Amount']) + ")")
+print template.format("SHIFT/USD", str(priceUsd));
 print ""
 
 if distributedAmount <= 0:
